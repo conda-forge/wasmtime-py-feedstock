@@ -10,7 +10,7 @@ source:
   sha256: 48417c59f13be145184cff61fef61bb52556ea0e7417c25bec09af2d859745ab
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
