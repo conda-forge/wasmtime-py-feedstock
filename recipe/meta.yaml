@@ -10,7 +10,7 @@ source:
   sha256: 90485655d6e541b817a7baa1b3071b4525d03f76bcb6ad04661774f06a3b02d4
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
@@ -25,6 +25,7 @@ requirements:
     - python
     - pip
     - setuptools
+    - setuptools-git-versioning >=2.0,<3
     - wheel
   run:
     - python
